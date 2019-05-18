@@ -1,17 +1,83 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>AppNFS-e</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
+  <h2>Bem vindo ao AppNFS-e</h2>
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
+    Aplicativo para emissão de NFS-e em qualquer lugar!
   </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+  <ion-card>
+
+    <ion-item>
+      <h2>Notas Emitidas</h2>
+      <p>Até Data Atual</p>
+    </ion-item>
+  
+    <img src="">
+  
+    <ion-card-content>
+      <p>Descrição para notas já emitidas</p>
+    </ion-card-content>
+  
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>Quantidade</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <!--<div></div>-->
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          Data Atual
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  
+  </ion-card>
+
+  <ion-card>
+
+      <ion-item>
+        <h2>Imposto Sobre Serviço (ISS)</h2>
+        <p>Pago Até Data Atual</p>
+      </ion-item>
+    
+      <img src="">
+    
+      <ion-card-content>
+        <p>Descrição para Total de Imposto Sobre Serviço (ISS) já emitido</p>
+      </ion-card-content>
+    
+      <ion-row>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>Valor total pago</div>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-start clear small>
+            <ion-icon name="text"></ion-icon>
+            <!--<div></div>-->
+          </button>
+        </ion-col>
+        <ion-col align-self-center text-center>
+          <ion-note>
+            Data Fechamento
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    
+    </ion-card>
+
 </ion-content>
